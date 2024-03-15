@@ -1,0 +1,645 @@
+/* Start the Code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image:url('./img/netflix\ bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:local;
+    height: 475px;
+    width: 80wh;
+    
+}
+
+/* Header nav bar */
+
+header{
+    background-color:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+}
+.opt select{
+    padding: 8px 25px;
+    /* border: solid; */
+    border-radius: 5px;
+    background-color: rgb(71, 63, 63);
+    /* background-color:transparent; */
+    color: white;
+    letter-spacing: 2px; 
+    margin-right: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+.opt select:hover{
+    border: solid;
+}
+
+.opt button{
+    padding: 9px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(231, 15, 51);
+    color: white;
+    margin-right: 250px;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.opt button:hover{
+    background-color: rgb(156, 13, 13);
+}
+
+/* Front text part  */
+
+.text{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 150px;
+    /* font-family:'Courier New', Courier, monospace; */
+}
+.text h1{
+    font-size:xx-large;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-family: 'Fasthand', cursive;
+    font-weight: bolder;
+}
+.text h3{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    /* font-family: 'Fasthand', cursive; */
+}
+
+/* Top Mail */
+
+.mail input{
+    justify-items: center;
+}
+.mail input{
+    padding: 17px 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 45, 45);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+    letter-spacing: 2px;
+    margin-left: 380px;
+    
+}
+
+.mail button{
+    padding: 13px 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(231, 15, 51);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+    font-weight: bold;
+    font-size: larger;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    margin-left:8px;
+    
+}
+.mail button:hover{
+    background-color: rgb(156, 13, 13);
+}
+.mail{
+    margin-top: 20px;
+}
+
+/*Kiara  */
+
+section{
+    width: 1348px;
+    height: 500px;
+    /* border: solid rgb(63, 59, 59); */
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* hr{
+    padding: 4px;
+    background-color:rgb(80, 74, 74);
+    border: none;
+} */
+
+#_a{
+    color: antiquewhite;
+    position: absolute;
+    left: 200px;
+    top: 800px;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+}
+
+#_b{
+    color: antiquewhite;
+    position: absolute;
+    left: 200px;
+    top: 870px;
+    font-size: x-large;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tv{
+    position: absolute;
+    right: 200px;
+    top: 700px;
+    z-index: 1;
+}   
+
+.gl{
+    position: absolute;
+    right: 258px;
+    top: 764px; 
+    /* z-index:1; */
+}
+
+/* Strange Things */
+
+.show{
+    width: 1348px;
+    height: 500px;
+    /* border: solid rgb(63, 59, 59); */
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tb{
+    position: absolute;
+    left: 150px;
+    top: 1200px;
+}   
+
+
+#_c{
+    color: antiquewhite;
+    position: absolute;
+    left: 600px;
+    top: 1270px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#_d{
+    color: antiquewhite;
+    position: absolute;
+    left: 600px;
+    top: 1397px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Saif Scared */
+
+.monk{
+    width: 1348px;
+    height: 500px;
+    /* border: solid rgb(63, 59, 59); */
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#_e{
+    color: antiquewhite;
+    position: absolute;
+    left: 180px;
+    top: 1800px;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#_f{
+    color: antiquewhite;
+    position: absolute;
+    left: 180px;
+    top: 1890px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sf{
+    position: absolute;
+    right: 150px;
+    top: 1770px;
+}   
+
+/* CARTOON WALA */
+
+.cart{
+    width: 1348px;
+    height: 500px;
+    /* border: solid rgb(63, 59, 59); */
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#_g{
+    color: antiquewhite;
+    position: absolute;
+    left: 600px;
+    top: 2250px;
+    font-size: 55px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#_h{
+    color: antiquewhite;
+    position: absolute;
+    left: 600px;
+    top: 2390px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ct{
+    position: absolute;
+    left: 150px;
+    top: 2230px;
+}   
+/* Question */
+
+.ask{
+    width: 1348px;
+    height: 800px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ask h1{
+    color: rgb(255, 255, 255);
+    /* justify-content: center; */
+    /* text-align: center; */
+    position: absolute;
+    left: 335px; 
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.word{
+     position: absolute; 
+     width: 1110px;
+     height: 800px;
+     margin: 120px;
+     justify-content: center;
+    
+}   
+
+.word h3{
+    background-color:rgb(80, 74, 74);
+    color: #FFF;
+    height: 60px;
+    margin: 0px auto;
+    width: 80%;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    /* color: rgb(255, 255, 255);
+    justify-content: center; 
+    text-align: center; 
+    position: absolute;
+    left: 335px; 
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+
+.word p{
+    
+    border: solid;
+    color: #fff;
+    background-color: rgb(80, 74, 74);
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    height: 100px;
+    margin: 10px auto;
+    width: 80%;
+    display: none;
+}
+
+.word h3:hover+p{
+    display: block;   
+}
+
+/* Bottom Mail */
+
+.mail2 input{
+    justify-items: center;
+    padding: 17px 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 45, 45);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+    letter-spacing: 2px;
+    margin-left: 396px;
+    
+}
+
+.mail2 button{
+    padding: 13px 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(231, 15, 51);
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+    font-weight: bold;
+    font-size: larger;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    margin-left:8px;
+    
+}
+.mail2 button:hover{
+    background-color: rgb(156, 13, 13);
+}
+
+.mail2{
+    margin-top: 680px;
+}
+
+
+.text2{
+    color: rgb(255, 255, 255);
+    /* justify-content: center; */
+    /* text-align: center; */
+    position: absolute;
+    left: 335px; 
+    margin-top: 620px;
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Footer */
+
+footer{
+    width: 1348px;
+    height: 450px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ls{
+    color: rgb(163, 154, 154);
+    position: absolute ;
+    left: 165px; 
+    margin-top: 140px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.qs{
+    color: rgb(163, 154, 154);
+    position: absolute;
+    left: 165px; 
+    margin-top: 80px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+ .text3{
+    background: rgb(231, 15, 51);
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+  }
+.text3 span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+  }
+.text3 span a{
+    font-weight: 500;
+    color: #FFF;
+  } 
+.text3 span a:hover{
+    text-decoration: underline;
+  }
+
+  
+.ls2{
+    color: rgb(163, 154, 154);
+    position: absolute ;
+    left: 450px; 
+    margin-top: 140px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ls3{
+    color: rgb(163, 154, 154);
+    position: absolute ;
+    left: 750px; 
+    margin-top: 140px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.ls4{
+    color: rgb(163, 154, 154);
+    position: absolute ;
+    left: 1000px; 
+    margin-top: 140px;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul li:hover{
+    color: rgb(136, 39, 39);
+}
+.division{
+    width: 100vw;
+    height: 5px;
+    background: rgb(53, 47, 47);
+}
+
+
+
+/* Media Query */
+
+
+/* Media query for tablets and smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        height: auto;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: 75px;
+        margin-left: 50px;
+    }
+
+    .opt select {
+        padding: 8px 15px;
+        margin-right: 10px;
+    }
+
+    .opt button {
+        padding: 9px 15px;
+        margin-right: 10px;
+    }
+
+    .text {
+        margin-top: 50px;
+    }
+
+    .mail input {
+        padding: 15px;
+        margin-left: 20px;
+    }
+
+    .mail button {
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    
+}
+
+/* Media query for mobile devices */
+
+@media only screen and (max-width: 480px) {
+    .logo img {
+        width: 120px;
+        height: 60px;
+        margin-left: 20px;
+    }
+
+    .opt select {
+        padding: 8px 10px;
+        margin-right: 5px;
+    }
+
+    .opt button {
+        padding: 9px 10px;
+        margin-right: 5px;
+    }
+
+    .text h1 {
+        font-size: x-large;
+    }
+
+    .text h3 {
+        font-size: small;
+    }
+
+    .mail input {
+        padding: 12px;
+        margin-left: 10px;
+    }
+
+    .mail button {
+        padding: 8px;
+        margin-left: 0px;
+        font-size: medium;
+    }
+
+    #_a,
+    #_b,
+    #_c,
+    #_d,
+    #_e,
+    #_f,
+    #_g,
+    #_h {
+        font-size: medium;
+    }
+
+    .word h3 {
+        font-size: medium;
+    }
+
+    .word p {
+        height: 80px;
+    }
+
+    .mail2 input {
+        padding: 12px;
+        margin-left: 10px;
+    }
+
+    .mail2 button {
+        padding: 8px;
+        margin-left: 0px;
+        font-size: medium;
+    }
+
+    .ask h1 {
+        font-size: medium;
+    }
+
+    .qs {
+        font-size: small;
+    }
+
+    .ls,
+    .ls2,
+    .ls3,
+    .ls4 {
+        font-size: small;
+    }
+
+    .text3 span {
+        font-size: small;
+    }
+
+
+}
